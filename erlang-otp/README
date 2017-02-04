@@ -4,4 +4,4 @@ strict evaluation, single assignment, and dynamic typing. It was designed
 by Ericsson to support distributed, fault-tolerant, soft-real-time, 
 non-stop applications.
 
-wxPython is an optional dependency.
+wxPython and jdk are optional dependencies.
