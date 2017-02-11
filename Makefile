@@ -52,6 +52,12 @@ erlang-otp_manifest 		=					\
 	erlang-otp/erlang-otp.info 					\
 	erlang-otp/slack-desc
 
+perl-class-accessor_manifest	=					\
+	perl-class-accessor/README					\
+	perl-class-accessor/perl-class-accessor.SlackBuild		\
+	perl-class-accessor/perl-class-accessor.info			\
+	perl-class-accessor/slack-desc
+
 perl-file-path-expand_manifest	=					\
 	perl-file-path-expand/README					\
 	perl-file-path-expand/perl-file-path-expand.SlackBuild		\
@@ -85,6 +91,7 @@ GZIP 	= gzip
 all: 	couchdb.SlackBuild			\
 	elixir.SlackBuild			\
 	erlang-otp.SlackBuild			\
+	perl-class-accessor.SlackBuild		\
 	perl-file-path-expand.SlackBuild	\
 	perl-lirc-client.SlackBuild		\
 	perl-tk.SlackBuild			\
