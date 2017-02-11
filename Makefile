@@ -49,6 +49,13 @@ erlang-otp_manifest	= 	erlang-otp/README 			\
 				erlang-otp/erlang-otp.info 		\
 				erlang-otp/slack-desc
 
+perl-tk_manifest	=	perl-tk/README				\
+				perl-tk/patches/perl-tk-804.031.diff	\
+				perl-tk/patches/perl_bin_path.diff	\
+				perl-tk/perl-tk.SlackBuild		\
+				perl-tk/perl-tk.info			\
+				perl-tk/slack-desc
+
 sfnt2woff_manifest	= 	sfnt2woff/README 			\
 				sfnt2woff/sfnt2woff.SlackBuild 		\
 				sfnt2woff/sfnt2woff.info 		\
