@@ -1,9 +1,9 @@
 Apache CouchDB is a RESTFul document-oriented database.
  
-Apache CouchDB is a document-oriented database that can be queried 
-and indexed in a MapReduce fashion using JavaScript.  CouchDB also 
-offers incremental replication with bi-directional conflict detection
-and resolution.  CouchDB provides a RESTful JSON API.
+Apache CouchDB is a document-oriented database that can be queried and
+indexed in a MapReduce fashion using JavaScript.  CouchDB also offers
+incremental replication with bi-directional conflict detection and
+resolution.  CouchDB provides a RESTful JSON API.
 
 You must have a "couchdb" user and group before running this script;
 something like this should suffice:

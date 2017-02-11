@@ -31,36 +31,70 @@
 # SlackBuild this way.  There's probably room for significant
 # improvement, but this seems to work at least reasonably well.
 
-couchdb_manifest	= 	couchdb/README 				\
-				couchdb/README.SLACKWARE 		\
-				couchdb/couchdb.SlackBuild 		\
-				couchdb/couchdb.info 			\
-				couchdb/doinst.sh 			\
-				couchdb/slack-desc
+couchdb_manifest		=					\
+	couchdb/README 							\
+	couchdb/README.SLACKWARE 					\
+	couchdb/couchdb.SlackBuild 					\
+	couchdb/couchdb.info 						\
+	couchdb/doinst.sh 						\
+	couchdb/slack-desc
 
-elixir_manifest		= 	elixir/README 				\
-				elixir/elixir.SlackBuild 		\
-				elixir/elixir.info 			\
-				elixir/slack-desc
+elixir_manifest			=					\
+	elixir/README 							\
+	elixir/elixir.SlackBuild 					\
+	elixir/elixir.info 						\
+	elixir/slack-desc
 
-erlang-otp_manifest	= 	erlang-otp/README 			\
-				erlang-otp/doinst.sh 			\
-				erlang-otp/erlang-otp.SlackBuild 	\
-				erlang-otp/erlang-otp.info 		\
-				erlang-otp/slack-desc
+erlang-otp_manifest 		=					\
+	erlang-otp/README 						\
+	erlang-otp/doinst.sh 						\
+	erlang-otp/erlang-otp.SlackBuild 				\
+	erlang-otp/erlang-otp.info 					\
+	erlang-otp/slack-desc
 
-sfnt2woff_manifest	= 	sfnt2woff/README 			\
-				sfnt2woff/sfnt2woff.SlackBuild 		\
-				sfnt2woff/sfnt2woff.info 		\
-				sfnt2woff/slack-desc
+perl-class-accessor_manifest	=					\
+	perl-class-accessor/README					\
+	perl-class-accessor/perl-class-accessor.SlackBuild		\
+	perl-class-accessor/perl-class-accessor.info			\
+	perl-class-accessor/slack-desc
+
+perl-file-path-expand_manifest	=					\
+	perl-file-path-expand/README					\
+	perl-file-path-expand/perl-file-path-expand.SlackBuild		\
+	perl-file-path-expand/perl-file-path-expand.info		\
+	perl-file-path-expand/slack-desc
+
+perl-lirc-client_manifest	=					\
+	perl-lirc-client/README						\
+	perl-lirc-client/perl-lirc-client.SlackBuild			\
+	perl-lirc-client/perl-lirc-client.info				\
+	perl-lirc-client/slack-desc
+
+perl-tk_manifest		=					\
+	perl-tk/README							\
+	perl-tk/patches/perl-tk-804.031.diff				\
+	perl-tk/patches/perl_bin_path.diff				\
+	perl-tk/perl-tk.SlackBuild					\
+	perl-tk/perl-tk.info						\
+	perl-tk/slack-desc
+
+sfnt2woff_manifest		=					\
+	sfnt2woff/README 						\
+	sfnt2woff/sfnt2woff.SlackBuild 					\
+	sfnt2woff/sfnt2woff.info 					\
+	sfnt2woff/slack-desc
 
 OUT 	= ./out
 TAR 	= tar caf
 GZIP 	= gzip
 
-all: 	couchdb.SlackBuild \
-	elixir.SlackBuild \
-	erlang-otp.SlackBuild \
+all: 	couchdb.SlackBuild			\
+	elixir.SlackBuild			\
+	erlang-otp.SlackBuild			\
+	perl-class-accessor.SlackBuild		\
+	perl-file-path-expand.SlackBuild	\
+	perl-lirc-client.SlackBuild		\
+	perl-tk.SlackBuild			\
 	sfnt2woff.SlackBuild
 
 outdir: ; mkdir -p $(OUT)
