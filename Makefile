@@ -52,6 +52,12 @@ erlang-otp_manifest 		=					\
 	erlang-otp/erlang-otp.info 					\
 	erlang-otp/slack-desc
 
+perl-file-path-expand_manifest	=					\
+	perl-file-path-expand/README					\
+	perl-file-path-expand/perl-file-path-expand.SlackBuild		\
+	perl-file-path-expand/perl-file-path-expand.info		\
+	perl-file-path-expand/slack-desc
+
 perl-lirc-client_manifest	=					\
 	perl-lirc-client/README						\
 	perl-lirc-client/perl-lirc-client.SlackBuild			\
@@ -76,11 +82,12 @@ OUT 	= ./out
 TAR 	= tar caf
 GZIP 	= gzip
 
-all: 	couchdb.SlackBuild		\
-	elixir.SlackBuild		\
-	erlang-otp.SlackBuild		\
-	perl-lirc-client.SlackBuild	\
-	perl-tk.SlackBuild		\
+all: 	couchdb.SlackBuild			\
+	elixir.SlackBuild			\
+	erlang-otp.SlackBuild			\
+	perl-file-path-expand.SlackBuild	\
+	perl-lirc-client.SlackBuild		\
+	perl-tk.SlackBuild			\
 	sfnt2woff.SlackBuild
 
 outdir: ; mkdir -p $(OUT)
