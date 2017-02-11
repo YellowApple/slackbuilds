@@ -52,7 +52,7 @@ erlang-otp_manifest 		=					\
 	erlang-otp/erlang-otp.info 					\
 	erlang-otp/slack-desc
 
-perl-lirc-client-manifest	=					\
+perl-lirc-client_manifest	=					\
 	perl-lirc-client/README						\
 	perl-lirc-client/perl-lirc-client.SlackBuild			\
 	perl-lirc-client/perl-lirc-client.info				\
