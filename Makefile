@@ -112,6 +112,12 @@ perl-tk_manifest		=					\
 	perl-tk/perl-tk.info						\
 	perl-tk/slack-desc
 
+scrot_manifest			=					\
+	scrot/README							\
+	scrot/scrot.SlackBuild						\
+	scrot/scrot.info						\
+	scrot/slack-desc
+
 sfnt2woff_manifest		=					\
 	sfnt2woff/README 						\
 	sfnt2woff/sfnt2woff.SlackBuild 					\
@@ -133,6 +139,7 @@ all: 	brlcad.SlackBuild			\
 	perl-file-path-expand.SlackBuild	\
 	perl-lirc-client.SlackBuild		\
 	perl-tk.SlackBuild			\
+	scrot.SlackBuild			\
 	sfnt2woff.SlackBuild
 
 outdir: ; mkdir -p $(OUT)
