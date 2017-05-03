@@ -31,6 +31,20 @@
 # SlackBuild this way.  There's probably room for significant
 # improvement, but this seems to work at least reasonably well.
 
+brlcad_manifest			=					\
+	brlcad/README							\
+	brlcad/README.SLACKWARE						\
+	brlcad/brlcad.SlackBuild					\
+	brlcad/brlcad.info						\
+	brlcad/brlcad.patch						\
+	brlcad/brlcad.png						\
+	brlcad/brlcad_archer.desktop					\
+	brlcad/brlcad_mged.desktop					\
+	brlcad/doinst.sh						\
+	brlcad/profile.d/brlcad.csh					\
+	brlcad/profile.d/brlcad.sh					\
+	brlcad/slack-desc
+
 couchdb_manifest		=					\
 	couchdb/README 							\
 	couchdb/README.SLACKWARE 					\
@@ -88,7 +102,8 @@ OUT 	= ./out
 TAR 	= tar caf
 GZIP 	= gzip
 
-all: 	couchdb.SlackBuild			\
+all: 	brlcad.SlackBuild			\
+	couchdb.SlackBuild			\
 	elixir.SlackBuild			\
 	erlang-otp.SlackBuild			\
 	perl-class-accessor.SlackBuild		\
