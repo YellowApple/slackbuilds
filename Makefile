@@ -66,6 +66,12 @@ erlang-otp_manifest 		=					\
 	erlang-otp/erlang-otp.info 					\
 	erlang-otp/slack-desc
 
+gauche_manifest			=					\
+	gauche/README							\
+	gauche/gauche.SlackBuild					\
+	gauche/gauche.info						\
+	gauche/slack-desc
+
 perl-class-accessor_manifest	=					\
 	perl-class-accessor/README					\
 	perl-class-accessor/perl-class-accessor.SlackBuild		\
@@ -106,6 +112,7 @@ all: 	brlcad.SlackBuild			\
 	couchdb.SlackBuild			\
 	elixir.SlackBuild			\
 	erlang-otp.SlackBuild			\
+	gauche.SlackBuild			\
 	perl-class-accessor.SlackBuild		\
 	perl-file-path-expand.SlackBuild	\
 	perl-lirc-client.SlackBuild		\
