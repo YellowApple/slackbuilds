@@ -31,6 +31,20 @@
 # SlackBuild this way.  There's probably room for significant
 # improvement, but this seems to work at least reasonably well.
 
+brlcad_manifest			=					\
+	brlcad/README							\
+	brlcad/README.SLACKWARE						\
+	brlcad/brlcad.SlackBuild					\
+	brlcad/brlcad.info						\
+	brlcad/brlcad.patch						\
+	brlcad/brlcad.png						\
+	brlcad/brlcad_archer.desktop					\
+	brlcad/brlcad_mged.desktop					\
+	brlcad/doinst.sh						\
+	brlcad/profile.d/brlcad.csh					\
+	brlcad/profile.d/brlcad.sh					\
+	brlcad/slack-desc
+
 couchdb_manifest		=					\
 	couchdb/README 							\
 	couchdb/README.SLACKWARE 					\
@@ -51,6 +65,26 @@ erlang-otp_manifest 		=					\
 	erlang-otp/erlang-otp.SlackBuild 				\
 	erlang-otp/erlang-otp.info 					\
 	erlang-otp/slack-desc
+
+gauche_manifest			=					\
+	gauche/README							\
+	gauche/gauche.SlackBuild					\
+	gauche/gauche.info						\
+	gauche/slack-desc
+
+geany-plugins_manifest		=					\
+	geany-plugins/README						\
+	geany-plugins/doinst.sh						\
+	geany-plugins/geany-plugins.SlackBuild				\
+	geany-plugins/geany-plugins.info				\
+	geany-plugins/slack-desc
+
+geany_manifest			=					\
+	geany/README							\
+	geany/doinst.sh							\
+	geany/geany.SlackBuild						\
+	geany/geany.info						\
+	geany/slack-desc
 
 perl-class-accessor_manifest	=					\
 	perl-class-accessor/README					\
@@ -78,6 +112,12 @@ perl-tk_manifest		=					\
 	perl-tk/perl-tk.info						\
 	perl-tk/slack-desc
 
+scrot_manifest			=					\
+	scrot/README							\
+	scrot/scrot.SlackBuild						\
+	scrot/scrot.info						\
+	scrot/slack-desc
+
 sfnt2woff_manifest		=					\
 	sfnt2woff/README 						\
 	sfnt2woff/sfnt2woff.SlackBuild 					\
@@ -88,13 +128,18 @@ OUT 	= ./out
 TAR 	= tar caf
 GZIP 	= gzip
 
-all: 	couchdb.SlackBuild			\
+all: 	brlcad.SlackBuild			\
+	couchdb.SlackBuild			\
 	elixir.SlackBuild			\
 	erlang-otp.SlackBuild			\
+	gauche.SlackBuild			\
+	geany-plugins.SlackBuild		\
+	geany.SlackBuild			\
 	perl-class-accessor.SlackBuild		\
 	perl-file-path-expand.SlackBuild	\
 	perl-lirc-client.SlackBuild		\
 	perl-tk.SlackBuild			\
+	scrot.SlackBuild			\
 	sfnt2woff.SlackBuild
 
 outdir: ; mkdir -p $(OUT)
