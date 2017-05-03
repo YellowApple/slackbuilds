@@ -72,6 +72,20 @@ gauche_manifest			=					\
 	gauche/gauche.info						\
 	gauche/slack-desc
 
+geany-plugins_manifest		=					\
+	geany-plugins/README						\
+	geany-plugins/doinst.sh						\
+	geany-plugins/geany-plugins.SlackBuild				\
+	geany-plugins/geany-plugins.info				\
+	geany-plugins/slack-desc
+
+geany_manifest			=					\
+	geany/README							\
+	geany/doinst.sh							\
+	geany/geany.SlackBuild						\
+	geany/geany.info						\
+	geany/slack-desc
+
 perl-class-accessor_manifest	=					\
 	perl-class-accessor/README					\
 	perl-class-accessor/perl-class-accessor.SlackBuild		\
@@ -113,6 +127,8 @@ all: 	brlcad.SlackBuild			\
 	elixir.SlackBuild			\
 	erlang-otp.SlackBuild			\
 	gauche.SlackBuild			\
+	geany-plugins.SlackBuild		\
+	geany.SlackBuild			\
 	perl-class-accessor.SlackBuild		\
 	perl-file-path-expand.SlackBuild	\
 	perl-lirc-client.SlackBuild		\
