@@ -21,7 +21,7 @@
 # of README in upstream
 
 PRGNAM=erlang-otp
-VERSION=${VERSION:-19.3}
+VERSION=${VERSION:-20.1}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
 
