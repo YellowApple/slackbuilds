@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+          |-----handy-ruler------------------------------------------------------|
+solvespace: SolveSpace
+solvespace:
+solvespace: SolveSpace is a parametric 3d CAD program.  Applications include
+solvespace: modeling 2d/3d parts, 3d-printed parts, preparing CAM data, mechanism
+solvespace: design, and plane and solid geometry.
+solvespace:
+solvespace: http://solvespace.com
+solvespace:
+solvespace:
+solvespace:
+solvespace:
