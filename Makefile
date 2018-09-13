@@ -124,7 +124,7 @@ sfnt2woff_manifest		=					\
 	sfnt2woff/sfnt2woff.info 					\
 	sfnt2woff/slack-desc
 
-solvespace_manifest		=
+solvespace_manifest		=					\
 	solvespace/README						\
 	solvespace/doinst.sh						\
 	solvespace/solvespace.SlackBuild				\
