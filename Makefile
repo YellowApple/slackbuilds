@@ -86,6 +86,12 @@ geany_manifest			=					\
 	geany/geany.info						\
 	geany/slack-desc
 
+peg_manifest			=					\
+	peg/README							\
+	peg/peg.SlackBuild						\
+	peg/peg.info							\
+	peg/slack-desc
+
 perl-class-accessor_manifest	=					\
 	perl-class-accessor/README					\
 	perl-class-accessor/perl-class-accessor.SlackBuild		\
@@ -142,6 +148,7 @@ all: 	brlcad.SlackBuild			\
 	gauche.SlackBuild			\
 	geany-plugins.SlackBuild		\
 	geany.SlackBuild			\
+	peg.SlackBuild				\
 	perl-class-accessor.SlackBuild		\
 	perl-file-path-expand.SlackBuild	\
 	perl-lirc-client.SlackBuild		\
